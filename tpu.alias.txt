@@ -1,0 +1,7 @@
+alias tpu-cmd='gcloud alpha compute tpus tpu-vm ssh ${TPU_NAME}  --zone us-central2-b   --worker=all  --command'
+alias tpu-scp='bash /home/ahmet_cohere_com/tpu-ops/tpu.scp.sh'
+alias tpu-release='bash /home/ahmet_cohere_com/tpu-ops/tpu.release.sh'
+alias tpu-delete='bash /home/ahmet_cohere_com/tpu-ops/tpu.delete.sh'
+alias tpu-stop='bash /home/ahmet_cohere_com/tpu-ops/tpu.stop.sh'
+alias tpu-create='bash /home/ahmet_cohere_com/tpu-ops/tpu.create.sh'
+alias tpu-ssh='bash /home/ahmet_cohere_com/tpu-ops/tpu.ssh.sh'
